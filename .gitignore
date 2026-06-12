@@ -1,0 +1,31 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+terraform/modules/lambda/*.zip
+
+# Root-level tfstate (if running terraform from project root)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+
+# macOS
+.DS_Store

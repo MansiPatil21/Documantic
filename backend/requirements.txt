@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+boto3
+python-multipart
+requests
+gitpython
+python-dotenv
+aiofiles
+pyjwt
+bcrypt

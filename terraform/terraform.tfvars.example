@@ -1,0 +1,5 @@
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars is gitignored — never commit secrets
+
+groq_api_key     = "gsk_your_groq_api_key_here"
+ses_sender_email = "mansican908@gmail.com"

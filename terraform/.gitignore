@@ -1,0 +1,11 @@
+# Terraform state — never commit
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Secret values
+terraform.tfvars
+
+# Generated Lambda zip archives
+modules/lambda/*.zip
